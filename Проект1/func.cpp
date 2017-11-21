@@ -4,7 +4,7 @@
 
 double Nerivn2(double x, double y)
 {
-	double a, c;
+	double a, c; // zminni
 	a = x + 8 * y*y;
 	if (a == 0)
 		return 1;
