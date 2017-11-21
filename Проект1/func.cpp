@@ -6,7 +6,7 @@ double Nerivn2(double x, double y)
 {
 	double a, c; // zminni
 	a = x + 8 * y*y; //DDD of func
-	if (a == 0)
+	if (a == 0) //if
 		return 1;
 	c = fabs(x - y) / a;
 	if (c < 0)
